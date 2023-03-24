@@ -1,0 +1,16 @@
+.navbar-text h5 {
+	font-family: 'Arial';
+	text-align: center;
+	line-height: inherit;
+	color: white;
+}
+
+.sticky .navbar-text h5 {
+	color: #41b6e6;
+}
+
+@media only screen and (min-width: 912px) {
+  .navbar-text {
+  	padding: 1em;
+  }
+}

@@ -1,0 +1,25 @@
+.card_style
+{
+	height: 520px;
+}
+
+.item_body {
+	position: relative;
+}
+
+.img_fit {
+	width: 100%;
+	height: 190px;
+	object-fit: cover;
+}
+
+.item_content {
+	height: 220px;
+	overflow-wrap: break-word;
+	text-align: center;
+}
+
+.item_under {
+	text-align: center;
+	bottom: 10px;
+}

@@ -1,0 +1,5 @@
+.transaction_table {
+	width: 100%;
+	overflow: scroll;
+	scroll-behavior: smooth;
+}

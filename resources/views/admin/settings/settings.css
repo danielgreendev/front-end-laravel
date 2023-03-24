@@ -1,0 +1,10 @@
+@media only screen and (max-width: 1280px)
+{
+	.variable_long {
+		padding: 0 0 10px 0;
+	}
+
+	.variable_long_after {
+		padding: 10px 0 0 0;
+	}
+}

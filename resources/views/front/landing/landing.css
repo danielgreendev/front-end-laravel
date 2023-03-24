@@ -1,0 +1,25 @@
+body {
+	position: relative;
+}
+
+.navbar-brand #menu_digital_logo {
+	width: 100px;
+}
+
+#submenu-1-1 {
+	background: #ffffff;
+	border-radius: 6px;
+}
+
+#submenu-1-1 a {
+	color: unset;
+}
+
+#submenu-1-1 li {
+	margin: 0px;
+	padding:  0 20px 0 20px;
+}
+
+.hero-section {
+	background-size: cover;
+}

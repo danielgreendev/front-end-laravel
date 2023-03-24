@@ -1,0 +1,61 @@
+@media (min-width: 992px) {
+    .layout-navbar {
+        left: 15.5rem !important;
+    }
+}
+
+.main-panel {
+    padding-top: 78px;
+}
+
+@media (max-width: 1280px) {
+    .layout-navbar-fixed .layout-navbar.navbar-detached {
+        width: calc(100% - (1.5rem * 2) - 16.25rem) !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .layout-navbar-fixed .layout-navbar.navbar-detached {
+        width: calc(100% - (1.5rem * 2)) !important;
+    }
+}
+
+.flex-grow-1 p {
+    line-height: 1.5;
+    font-size: revert;
+}
+
+.modal-title {
+    color: black;
+}
+
+h3 {
+    color: white;
+}
+
+.dropdown-notifications-list {
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #707B7C; 
+  border-radius: 3px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5D6D7E; 
+  border-radius: 3px;
+  opacity: 0.1;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2E4053; 
+}

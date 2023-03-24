@@ -1,0 +1,8 @@
+.payment_icon {
+	display: flex;
+	justify-content: space-between;
+}
+
+#btn_paypal {
+	margin: 0;
+}

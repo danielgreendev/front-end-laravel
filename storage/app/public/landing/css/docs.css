@@ -1,0 +1,187 @@
+:root {
+    --bs-theme-color: #41b6e6;
+}
+
+.header {
+	background-color: var(--bs-theme-color);
+}
+
+.docs_logo {
+	width: 100px !important;
+}
+
+.docs_menu {
+	padding-top: 110px;
+	position: fixed;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  background: #fff;
+  color: #fff;
+  transition: all 0.3s;
+  min-height: 100vh;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #fff;
+}
+
+#sidebar ul.components {
+    padding: 0 10px;
+    border-bottom: 1px solid #fff;
+}
+
+#sidebar ul p {
+    color: #000000;
+    padding: 10px;
+    font-size: larger;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: #000000;
+}
+
+#sidebar ul li a:hover {
+    color: #888;
+    background: #fff;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #000000;
+    background: #fff;
+}
+
+a[data-bs-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #fff;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+a.article,
+a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #sidebarCollapse span {
+/*        display: none;*/
+    }
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    padding-top: 150px;
+}
+
+.dx-content-title {
+    font-family: PayPalOpen-Regular,Helvetica Neue,Arial,sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    color: #0c0c0d;
+}
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0 0.33em;
+    color: #2c2e2f;
+    font-weight: 500;
+}
+@media only screen and (max-width: 59rem)
+h1 {
+    margin-bottom: 2rem;
+}
+h1 {
+    font-family: PayPalOpen-Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.paypal_instruction {
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: var(--bs-theme-color);
+    background-color: #E5E5E5;
+}
+
+.steps {
+    padding: 20px;
+}
+
+.step {
+    padding: 7px 0;
+}
+
+.step a {
+    color: var(--bs-theme-color);
+}

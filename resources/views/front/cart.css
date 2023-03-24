@@ -1,0 +1,9 @@
+@media only screen and (max-width: 480px) {
+	.form_text, .ft-mobile, #delivery_area{
+    font-size: 13px !important;
+  }
+
+  .footer_response {
+  	padding: 0 !important;
+  }
+}

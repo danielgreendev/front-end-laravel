@@ -1,0 +1,67 @@
+.user_header {
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #41b6e6;
+	z-index: 0;
+}
+
+.user_header_title {
+	margin-top: 50px;
+	text-align: center;
+	color: #fff;
+}
+
+@media only screen and (max-width: 912px) {
+  .user_header {
+  	padding-bottom: 220px;
+  }
+}
+
+.pricing_sub_title {
+	animation-delay: 0.2s;
+	animation-name: zoomIn;
+}
+
+.pricing_title {
+	animation-delay: 0.4s;
+	animation-name: fadeInUp;
+}
+
+.pricing_desc {
+	animation-delay: 0.6s;
+	animation-name: fadeInUp;
+}
+
+.pricing_content_1 {
+	animation-delay: 0.4s;
+	animation-name: fadeInUp;
+}
+
+.pricing_content_2 {
+	animation-delay: 0.6s;
+	animation-name: fadeInRight;
+}
+
+.pricing_content_3 {
+	animation-delay: 0.8s;
+	animation-name: zoomIn;
+}
+
+.pricing-table .single-table .table-content .table-list li.disable::before {
+    color: #727272;
+    content: "\ea88";
+}
+
+.call-action {
+	background-color: #ffffff;
+}
+
+.table-head p {
+	text-align: center;
+}
+
+.couponcode {
+	margin: 10px 0;
+}
